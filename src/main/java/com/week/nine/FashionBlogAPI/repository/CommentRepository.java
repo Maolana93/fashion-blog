@@ -1,0 +1,7 @@
+package com.week.nine.FashionBlogAPI.repository;
+
+import com.week.nine.FashionBlogAPI.entity.Comment;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CommentRepository extends JpaRepository<Comment, Long> {
+}
